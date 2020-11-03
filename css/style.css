@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   flex: 0 0 auto;
+   scroll-behavior: smooth;
+}
+body{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 16px;
+}
+img{
+   max-width: 100%;
+}
+li{
+   list-style: none;
+}
+a, a:hover{
+   text-decoration: none;
+}
+
+
+
+/* ====== Global Code Section Started ====== */
+.container{
+   width: 1140px;
+   margin: auto;
+}
+.flex{
+   display: flex;
+   flex-wrap: wrap;
+}
+.col-1{
+   width: 20%;
+   padding: 15px;
+}
+.col-2{
+   width: 40%;
+   padding: 15px;
+}
+.col-3{
+   width: 33.33%;
+   padding: 15px;
+}
+.col-4{
+   width: 25%;
+   padding: 15px;
+}
+.heading{
+   font-size: 25px;
+   color: #413960;
+   text-align: center;
+   margin-bottom: 30px;
+}
+h3{
+   color: #413960;
+   font-size: 20px;
+   margin: 10px 0px 5px;
+}
+p{
+   color: #585859;
+   font-size: 18px;
+   line-height: 1.4;
+   margin-bottom: 20px;
+}
+.btn{
+   background: #217C58;
+   color: #fff;
+   font-size: 16px;
+   padding: 10px 20px;
+   display: inline-block;
+   border-radius: 20px;
+   transition-duration: 0.5s;
+}
+.btn:hover{
+   background: #fff;
+   color: #217C58;
+   box-shadow: 0px 1px 10px 0px #217C58;
+}
+/* ====== Global Code Section Ended ====== */
+
+
+/* ====== Header and Banner Section Started ====== */
+.banner-section{
+   background: #F0FFF0;
+}
+header{
+   padding: 20px 0px;
+}
+.logo{
+   width: 20%;
+   padding: 15px;
+}
+nav{
+   width: 80%;
+   padding: 15px;
+}
+nav ul{
+   justify-content: flex-end;
+}
+nav ul li a{
+   color: #39393B;
+   font-size: 17px;
+   font-weight: 600;
+   margin: 0px 10px;
+   padding: 10px 20px;
+   display: block;
+   border-radius: 20px;
+   transition-duration: 0.3s;
+}
+nav ul li a:hover{
+   background: #217C58;
+   color: #fff;
+}
+.menu-btn{
+   background: #217C58;
+   color: #fff;
+   font-size: 16px;
+   padding: 10px 20px;
+   display: inline-block;
+   border-radius: 20px;
+   transition-duration: 0.5s;
+}
+.menu-btn:hover{
+   background: #fff;
+   color: #217C58;
+   box-shadow: 0px 1px 10px 0px #217C58;
+}
+.pad-y{
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.banner-content{
+   width: 45%;
+   padding: 15px;
+}
+.banner-content span{
+   color: #F86342;
+   font-size: 18px;
+   letter-spacing: 2px;
+}
+h1{
+   font-size: 58px;
+   line-height: 1;
+   margin: 20px 0px;
+}
+h1 span{
+   color: #217C58!important;
+   font-size: 58px !important;
+   letter-spacing: 1px!important;
+}
+.banner-img{
+   width: 55%;
+   padding: 15px 90px;
+}
+/* ====== Header and Banner Section Ended ======*/
+
+
+/* ====== Feature Section Started ====== */
+.feature-section{
+   padding: 50px 0px;
+}
+.feature{
+   /* background: #F0FFF0; */
+   text-align: center;
+   padding: 40px 30px;
+   border-radius: 10px;
+}
+.feature:hover{
+   background: #fff;
+   box-shadow: 0px 5px 15px 0px #ddd;
+}
+.feature p{
+   font-size: 14px;
+   margin: 0px;
+}
+.feature img{
+   height: 70px;
+}
+
+/* ====== Feature Section Ended ======*/
+
+
+
+/* ====== Course Section Started ====== */
+.course{
+   box-shadow: 0px 5px 15px 0px #ddd;
+   border-radius: 10px;
+   padding: 15px;
+}
+.course span{
+   color: #777;
+   font-size: 15px;
+   display: block;
+   margin-bottom: 15px;
+}
+.course ul{
+   justify-content: space-between;
+   margin-top: 20px;
+   padding: 10px 0px;
+}
+.course ul li{
+   color: #777;
+   font-size: 15px;
+}
+.course ul li i{
+   display: inline-block;
+   margin-right: 5px;
+}
+/* ====== Course Section Ended ======*/
+
+
+
+
+/* ====== Testimonial Section Started ====== */
+.testimonial-section{
+   padding: 50px 0px;
+}
+.client-img{
+   width: 15%;
+   padding: 15px;
+}
+.client-content{
+   width: 60%;
+   padding: 15px;
+}
+.client-content p{
+   font-size: 16px;
+   line-height: 1.8;
+}
+.testimonial-section .flex{
+   justify-content: center;
+   align-items: center;
+}
+/* ====== Testimonial Section Ended ======*/
+
+
+
+
+/* ====== Footer Section Started ====== */
+footer{
+   background: #282531;
+   padding-top: 50px;
+}
+footer p{
+   color: #fff;
+   font-size: 16px;
+}
+footer ul strong{
+   color: #fff;
+   font-size: 20px;
+   font-weight: 600;
+   display: block;
+   margin-bottom: 5px;
+}
+footer ul li a{
+   color: #fff;
+   font-size: 15px;
+   display: block;
+   padding: 3px 0px;
+}
+footer ul li a:hover{
+   color: #217C58;
+}
+footer .course-list{
+   margin-left: 60px;
+}
+footer .terms-list{
+   margin-left: 40px;
+}
+.copyright{
+   color: #fff;
+   font-size: 15px;
+   padding: 30px 0px 20px;
+   text-align: center;
+   margin: 0;
+}
+.copyright a{
+   color: #F86342;
+   font-size: 17px;
+   font-weight: 600;
+}
+.copyright a:hover{
+   color: #217C58;
+}
+/* ====== Footer Section Ended ======*/
